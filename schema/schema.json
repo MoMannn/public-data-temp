@@ -1,0 +1,45 @@
+{
+  "$schema": "https://conventions.0xcert.org/xcert-schema.json",
+  "description": "A digital art assets by Jonas Kasper Jensen",
+  "properties": {
+    "$evidence": {
+      "description": "A URI pointing to the evidence JSON with data needed to certify this asset.",
+      "type": "string"
+    },
+    "$schema": {
+      "description": "A path to JSON Schema definition file.",
+      "type": "string"
+    },
+    "created": {
+      "description": "A date of creation.",
+      "type": "string"
+    },
+    "description": {
+      "description": "A property that holds a detailed description of an asset.",
+      "type": "string"
+    },
+    "id": {
+      "description": "A unique identifier.",
+      "type": "string"
+    },
+    "image": {
+      "description": "A public property that can be a valid URI pointing to a resource with mime type image/* representing the asset to which this digital assets represents. Consider making any images at a width between 320 and 1080 pixels and aspect ratio between 1.91:1 and 4:5 inclusive.",
+      "type": "string"
+    },
+    "materials": {
+      "description": "????",
+      "type": "string"
+    },
+    "name": {
+      "description": "A property that holds a name of an asset.",
+      "type": "string"
+    },
+    "size": {
+      "description": "????",
+      "type": "string"
+    }
+  },
+  "required": ["$schema", "description", "id", "image", "name"],
+  "title": "Jonas Kasper Jensen",
+  "type": "object"
+}
